@@ -1,7 +1,6 @@
 #Files
 *.json
 *.config.js
-*.md
 
 # Logs
 logs
