@@ -3,13 +3,16 @@ export function Entry(props) {
         <article>
             <div className="img-cnt">
                 <img
+                    className="food-img"
                     src={props.img.src} 
                 />
             </div>
             <div className="food-info">
                 <h4>{props.title}</h4>
                 <p>{props.ingredients}</p>
-                <span>{props.calories}</span>
+                <div className="span-align">
+                    <span>{props.calories}</span>
+                </div>
             </div>
 
         </article>
